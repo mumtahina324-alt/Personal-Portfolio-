@@ -1,3 +1,5 @@
+import Fresher from "../../assets/unemployment.png";
+
 export default function Experience() {
   return (
     <section className="container mx-auto px-6 py-14">
@@ -12,7 +14,7 @@ export default function Experience() {
           {/* Left Icon */}
           <div className="shrink-0">
             <img
-              src="/src/assets/unemployment.png"
+              src={Fresher}
               alt="No Experience"
               className="w-28 h-28 md:w-36 md:h-36 object-contain"
             />

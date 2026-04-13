@@ -42,9 +42,8 @@ export default function Hero() {
 
   return (
     <section className="container mx-auto px-4 sm:px-6 md:px-20 py-10">
-      <div className="max-w-7xl mx-auto px-2 py-8 flex flex-col md:flex-row items-center md:justify-between gap-10">
-        {/* IMAGE */}
-        <div className="order-1 md:order-2 w-full max-w-70 sm:max-w-sm md:max-w-md">
+      <div className="max-w-7xl mx-auto px-2 py-8 flex flex-col md:flex-row items-center md:justify-between gap-3 md:gap-10">
+        <div className="order-1 md:order-2 w-full max-w-70 sm:max-w-sm md:max-w-md mb-1 md:mb-0">
           <HeroImg />
         </div>
 
