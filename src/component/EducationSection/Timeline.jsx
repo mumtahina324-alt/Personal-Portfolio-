@@ -5,8 +5,11 @@ export default function Timeline() {
   return (
     <div className="container mx-auto pt-4 pb-8 px-6 py-8 md:py-8 lg:py-4">
       {/* Header Section */}
-      <h1 className="text-3xl md:text-5xl font-bold text-white text-center mb-16">
-        Edu<span className="text-emerald-400">cation</span>
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-16">
+        <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent">
+          Educ
+        </span>
+        <span className="text-white">ation</span>
       </h1>
 
       {/*  Timeline Grid */}

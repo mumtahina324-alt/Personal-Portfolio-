@@ -8,8 +8,11 @@ export default function Project() {
     <section className="py-14 text-white">
       <div className="container mx-auto px-6">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
-          My <span className="text-emerald-400">Projects</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-14">
+          <span className="text-white">My </span>
+          <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent">
+            Projects
+          </span>
         </h2>
 
         {/* Grid */}

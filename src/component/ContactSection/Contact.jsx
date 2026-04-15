@@ -6,8 +6,11 @@ export default function contact() {
     <section className="container mx-auto py-14 px-12">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Get In <span className="text-emerald-400">Touch</span>
+          <h2 className="text-4xl md:text-5xl font-bold">
+            <span className="text-white">Get In </span>
+            <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent inline-block">
+              Touch
+            </span>
           </h2>
           <p className="text-slate-400 mt-3">
             Let’s connect and discuss your next project

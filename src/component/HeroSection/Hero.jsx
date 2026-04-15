@@ -63,7 +63,7 @@ export default function Hero() {
           {/* Heading */}
           <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold leading-tight">
             Hi, I’m{" "}
-            <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent inline-block">
               Konika
             </span>
           </h1>

@@ -9,8 +9,11 @@ export default function About() {
 
         {/* Right Side Content */}
         <div className="w-full md:w-1/2 space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold text-emerald-400">
-            About <span className="text-white">Me</span>
+          <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold leading-tight">
+            <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent inline-block">
+              About
+            </span>{" "}
+            <span className="text-white inline-block">Me</span>
           </h1>
 
           <p className="text-gray-100 leading-relaxed font-light0 mt-4">

@@ -3,8 +3,11 @@ export default function Footer() {
     <footer className="container mx-auto border-t-2 border-emerald-400/50 ">
       <div className="max-w-7xl mx-auto px-6 py-10 text-center">
         {/* Name */}
-        <h2 className="text-2xl md:text-3xl font-bold text-emerald-400">
-          portfolio<span className="text-white">.konika</span>
+        <h2 className="text-2xl md:text-3xl font-bold">
+          <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent inline-block">
+            portfolio
+          </span>
+          <span className="text-white">.konika</span>
         </h2>
         {/* Role */}
         <p className="mt-4 text-sm text-emerald-200">

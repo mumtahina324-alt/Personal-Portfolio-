@@ -4,8 +4,11 @@ export default function Experience() {
   return (
     <section className="container mx-auto px-6 py-14">
       {/* Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-14 text-center">
-        Exper<span className="text-emerald-400">ience</span>
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-16">
+        <span className="bg-linear-to-r from-purple-600 to-emerald-400 bg-clip-text text-transparent">
+          Expe
+        </span>
+        <span className="text-white">rience</span>
       </h1>
 
       {/* Experience Card */}
