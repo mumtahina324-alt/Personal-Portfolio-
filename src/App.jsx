@@ -25,7 +25,6 @@ export default function App() {
 
         {/* Mobile content centered */}
         items-center
-        text-center
         sm:items-start sm:text-left
         "
       >

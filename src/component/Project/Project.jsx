@@ -1,5 +1,3 @@
-// src/components/Project.jsx
-
 import { ExternalLink, Github } from "lucide-react";
 import { projectData } from "../../data/projectData";
 
@@ -33,7 +31,7 @@ export default function Project() {
               </div>
 
               {/* Content */}
-              <div className="p-5 flex flex-col justify-between h-55">
+              <div className="p-5 flex flex-col justify-between h-auto md:min-h-55">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">
                     {project.title}
@@ -67,7 +65,7 @@ export default function Project() {
                     rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 text-sm 
                     bg-emerald-600 
-                    hover:from-green-600 hover:to-emerald-700 
+                    hover:bg-emerald-700 
                     px-4 py-2 rounded-xl transition-all duration-300 shadow-md"
                   >
                     <ExternalLink size={16} />

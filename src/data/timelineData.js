@@ -1,21 +1,18 @@
 export const timelineData = [
   {
-    year: "2021-22",
-    title: "Degree College",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!",
+    year: "2012-13",
+    title: "SSC in Science",
+    description: "GPA-5.00",
   },
   {
-    year: "2021-22",
-    title: "Degree College",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!",
+    year: "2012-17",
+    title: "Diploma in Computer Technology",
+    description: "CGPA-3.50",
   },
   {
-    year: "2021-22",
-    title: "Degree College",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!",
+    year: "2018-22",
+    title: "BSc in Computer Science and Engineering",
+    description: "CGPA-3.84",
   },
 ];
 //container mx-auto px-6 py-10
